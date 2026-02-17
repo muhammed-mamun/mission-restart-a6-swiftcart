@@ -37,7 +37,7 @@ const displayTredingProducts = async (products) => {
                         <button class="btn btn-outline btn-sm flex-1 mr-2 gap-2">
                             <i class="fa-regular fa-eye"></i> Details
                         </button>
-                        <button class="btn btn-primary btn-sm flex-1 ml-2">Add</button>
+                        <button class="btn btn-primary btn-sm flex-1 ml-2"><i class="fa-solid fa-cart-shopping"></i> Add</button>
                     </div>
                 </div>
             </div>
