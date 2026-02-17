@@ -46,7 +46,7 @@
                         <li><a href="#footer">Contact</a></li>
                     </ul>
                 </div>
-                <a class="btn btn-ghost text-xl text-[#4F39F6]">SwiftCart</a>
+                <a href="./index.html" class="btn btn-ghost text-xl text-[#4F39F6]">SwiftCart</a>
             </div>
             <div class="navbar-center hidden lg:flex">
                 <ul class="menu menu-horizontal px-1">
@@ -58,7 +58,13 @@
             </div>
             <div class="navbar-end">
                 <ul class="menu menu-horizontal px-1 gap-2">
-                    <a href="" class="btn btn-outline btn-primary"><i class="fa-solid fa-cart-shopping"></i></a>
+                    <button class="btn btn-outline btn-primary relative">
+                        <i class="fa-solid fa-cart-shopping"></i>
+
+                        <span id="cart-count" class="badge badge-error badge-sm absolute -top-2 -right-2">
+                            0
+                        </span>
+                    </button>
                 </ul>
             </div>
         </div>
@@ -82,7 +88,7 @@
         </div>
     </section>
 
-    <section id="about" class="my-24 max-w-screen-lg mx-auto px-4">
+    <section id="about" class="my-24 lg:px-[10%] mx-auto px-4">
         <h2 class="text-4xl font-bold text-center">Why Choose Us</h2>
         <p class="my-10 text-center">We provide the best shopping experience with top notch services</p>
         <div class="grid grid-cols-1 md:grid-cols-4 rounded-lg mx-auto justify-between gap-5">
@@ -123,7 +129,7 @@
         </div>
     </section>
 
-    <section class="my-24 max-w-screen-lg mx-auto px-4">
+    <section class="my-24 lg:px-[10%] mx-auto px-4">
         <h2 class="text-3xl font-bold my-4">Trending Now</h2>
         <div id="trending-products-container"
             class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-stretch gap-5">
@@ -147,7 +153,8 @@
             </form>
         </div>
     </section>
-    <footer id="footer" class="footer justify-center items-center flex flex-col sm:footer-horizontal bg-base-300 text-base-content p-10 bg-[#1E2939] text-white">
+    <footer id="footer"
+        class="footer justify-center items-center flex flex-col sm:footer-horizontal bg-base-300 text-base-content p-10 bg-[#1E2939] text-white">
         <div class=" grid grid-cols-1 md:grid-cols-4 gap-5 max-w-screen-lg mx-auto">
             <nav class="grid grid-cols-1 uppercase text-black/70">
                 <h2 class="text-2xl font-bold text-[#4F39F6]">SwiftCart</h2>
@@ -199,8 +206,8 @@
             </nav>
         </div>
         <div class="h-[1px] bg-white w-full"></div>
-        
-            <p class="text-center">2026 @ All Rights Reserved</p>
+
+        <p class="text-center">2026 @ All Rights Reserved</p>
     </footer>
 
 
