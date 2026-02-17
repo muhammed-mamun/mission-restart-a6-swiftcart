@@ -27,7 +27,7 @@
 </head>
 
 <body>
-     <header class="sticky top-0 z-20">
+    <header class="sticky top-0 z-20">
         <div class="navbar bg-base-100 px-2 shadow-sm mx-auto ">
             <div class="navbar-start">
                 <div class="dropdown">
@@ -40,20 +40,20 @@
                     </div>
                     <ul tabindex="-1"
                         class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-                        <li><a href="#hero">Home</a></li>
+                        <li><a href="./index.html">Home</a></li>
                         <li><a href="./products.html">Products</a></li>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#footer">Contact</a></li>
+                        <li><a href="./index.html#about">About</a></li>
+                        <li><a href="./index.html#footer">Contact</a></li>
                     </ul>
                 </div>
                 <a class="btn btn-ghost text-xl text-[#4F39F6]">SwiftCart</a>
             </div>
             <div class="navbar-center hidden lg:flex">
                 <ul class="menu menu-horizontal px-1">
-                    <li><a href="#hero">Home</a></li>
+                    <li><a href="./index.html">Home</a></li>
                     <li><a href="./products.html">Products</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#footer">Contact</a></li>
+                    <li><a href="./index.html#about">About</a></li>
+                    <li><a href="./index.html#footer">Contact</a></li>
                 </ul>
             </div>
             <div class="navbar-end">
@@ -65,7 +65,7 @@
     </header>
 
     <section class="max-w-screen-lg mx-auto px-4 flex flex-col items-center">
-        <h2 class="text-2xl text-center my-10 min-w-full">Our Products</h2>
+        <h2 class="text-2xl text-center font-bold my-6 min-w-full">Our Products</h2>
         <div id="category-container" class="flex flex-wrap justify-center gap-2 my-6 w-full mx-auto">
             <!-- Category buttons will be dynamically inserted here -->
 
@@ -75,7 +75,8 @@
 
         </div>
     </section>
-      <footer id="footer" class="footer sm:footer-horizontal bg-base-300 text-base-content p-10 bg-[#1E2939] text-white">
+    <footer id="footer"
+        class="footer justify-center items-center flex flex-col sm:footer-horizontal bg-base-300 text-base-content p-10 bg-[#1E2939] text-white">
         <div class=" grid grid-cols-1 md:grid-cols-4 gap-5 max-w-screen-lg mx-auto">
             <nav class="grid grid-cols-1 uppercase text-black/70">
                 <h2 class="text-2xl font-bold text-[#4F39F6]">SwiftCart</h2>
@@ -126,7 +127,31 @@
                 </div>
             </nav>
         </div>
+        <div class="h-[1px] bg-white w-full"></div>
+
+        <p class="text-center">2026 @ All Rights Reserved</p>
     </footer>
-<script src="./script/product.js"></script>
+
+    <dialog id="product_modal" class="modal">
+
+        <!-- black overlay -->
+        <div class="fixed inset-0 bg-black/60"></div>
+
+        <!-- modal box -->
+        <div id="modal-box" class="modal-box max-w-lg max-h-[90vh] overflow-y-auto relative z-40">
+
+            <button onclick="closeProductModal()" class="btn btn-sm btn-circle btn-ghost absolute right-3 top-3">
+                ✕
+            </button>
+
+            <div id="details-container"></div>
+
+        </div>
+    </dialog>
+
+
+
+    <script src="./script/product.js"></script>
 </body>
+
 </html>

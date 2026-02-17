@@ -28,7 +28,7 @@
 
 <body>
     <header class="sticky top-0 z-20">
-        <div class="navbar bg-base-100 px-2 shadow-sm mx-auto ">
+        <div class="navbar bg-base-100 px-2 shadow-sm lg:px-[10%] mx-auto flex-reverse">
             <div class="navbar-start">
                 <div class="dropdown">
                     <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -41,7 +41,7 @@
                     <ul tabindex="-1"
                         class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
                         <li><a href="#hero">Home</a></li>
-                        <li><a href="./products.html">Products</a></li>
+                        <li><a href="products.html">Products</a></li>
                         <li><a href="#about">About</a></li>
                         <li><a href="#footer">Contact</a></li>
                     </ul>
@@ -125,14 +125,29 @@
 
     <section class="my-24 max-w-screen-lg mx-auto px-4">
         <h2 class="text-3xl font-bold my-4">Trending Now</h2>
-        <div id="trending-products-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-stretch gap-5">
+        <div id="trending-products-container"
+            class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-stretch gap-5">
             <!-- Product cards will be dynamically inserted here -->
-           
+
 
         </div>
     </section>
-
-    <footer id="footer" class="footer sm:footer-horizontal bg-base-300 text-base-content p-10 bg-[#1E2939] text-white">
+    <section class="mb-12">
+        <div
+            class="max-w-screen-lg mx-auto px-4 flex justify-center items-center bg-[#4F39F6] text-gray-100  py-24 rounded-lg ">
+            <form class="mx-auto">
+                <h6 class="footer-title">Newsletter</h6>
+                <fieldset class="w-80">
+                    <label>Enter your email address</label>
+                    <div class="join">
+                        <input type="text" placeholder="username@site.com" class="input input-bordered join-item" />
+                        <button class="btn btn-primary join-item">Subscribe</button>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </section>
+    <footer id="footer" class="footer justify-center items-center flex flex-col sm:footer-horizontal bg-base-300 text-base-content p-10 bg-[#1E2939] text-white">
         <div class=" grid grid-cols-1 md:grid-cols-4 gap-5 max-w-screen-lg mx-auto">
             <nav class="grid grid-cols-1 uppercase text-black/70">
                 <h2 class="text-2xl font-bold text-[#4F39F6]">SwiftCart</h2>
@@ -183,7 +198,12 @@
                 </div>
             </nav>
         </div>
+        <div class="h-[1px] bg-white w-full"></div>
+        
+            <p class="text-center">2026 @ All Rights Reserved</p>
     </footer>
+
+
     <script src="./script/index.js"></script>
 </body>
 
