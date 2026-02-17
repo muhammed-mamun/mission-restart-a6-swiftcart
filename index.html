@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <!-- title and lo -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SwiftCart - Best Collection for You</title>
+    <link rel="shortcut icon" href="" type="image/x-icon" />
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- font integration  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- tailwind css + daisy ui -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="./style.css" />
+
+</head>
+
+<body>
+    <header class="sticky top-0 z-20">
+        <div class="navbar bg-base-100 px-2 shadow-sm mx-auto ">
+            <div class="navbar-start">
+                <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h8m-8 6h16" />
+                        </svg>
+                    </div>
+                    <ul tabindex="-1"
+                        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
+                        <li><a href="#hero">Home</a></li>
+                        <li><a href="./products.html">Products</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#footer">Contact</a></li>
+                    </ul>
+                </div>
+                <a class="btn btn-ghost text-xl text-[#4F39F6]">SwiftCart</a>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+                <ul class="menu menu-horizontal px-1">
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="./products.html">Products</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#footer">Contact</a></li>
+                </ul>
+            </div>
+            <div class="navbar-end">
+                <ul class="menu menu-horizontal px-1 gap-2">
+                    <a href="" class="btn btn-outline btn-primary"><i class="fa-solid fa-cart-shopping"></i></a>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section  -->
+    <section id="hero">
+        <div class="hero min-h-screen" style="background-image: url('./Assets/banner-image.png');">
+            <div class="hero-overlay bg-black/60"></div>
+
+            <div class="hero-content text-neutral-content text-left">
+                <div class=" items-start">
+                    <h1 class="mb-5 text-5xl font-bold">Best Collection for You</h1>
+                    <p class="mb-5 w-2/4">
+                        Discover the latest trends in fashion, electronics, home decor, and more. Shop with confidence
+                        and enjoy a seamless online shopping experience with us.
+                    </p>
+                    <button class="btn btn-primary p-2 text-lg  font-bold">Get Started</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="my-24 max-w-screen-lg mx-auto px-4">
+        <h2 class="text-4xl font-bold text-center">Why Choose Us</h2>
+        <p class="my-10 text-center">We provide the best shopping experience with top notch services</p>
+        <div class="grid grid-cols-1 md:grid-cols-4 rounded-lg mx-auto justify-between gap-5">
+            <div class="relative p-4 rounded-xl bg-slate-100">
+                <div
+                    class="absolute -top-6 left-1/4 transform -translate-x-1/2 bg-slate-100 p-2 rounded-xl border-4 border-white  shadow-md">
+                    <i class="fa-regular fa-truck text-2xl"></i>
+                </div>
+                <p class="text-lg font-semibold my-4">Fast Delivery</p>
+                <p>Get your order deliver to your doorstep quickly and efficiently</p>
+            </div>
+
+            <div class="relative p-4 rounded-xl bg-slate-100">
+                <div
+                    class="absolute -top-6 left-1/4 transform -translate-x-1/2 bg-slate-100 p-2 rounded-xl border-4 border-white  shadow-md">
+                    <i class="fa-solid fa-headphones text-2xl"></i>
+                </div>
+                <p class="text-lg font-semibold my-4">24/7 Support</p>
+                <p>Our support team is available around the clock to support you</p>
+            </div>
+            <div class="relative p-4 rounded-xl bg-slate-100">
+                <div
+                    class="absolute -top-6 left-1/4 transform -translate-x-1/2 bg-slate-100 p-2 rounded-xl border-4 border-white  shadow-md">
+                    <i class="fa-solid fa-shield text-2xl"></i>
+                </div>
+                <p class="text-lg font-semibold my-4">Secure Payment</p>
+                <p>Experience safe and secure transactions with our encrypted payment system</p>
+            </div>
+            <div class="relative p-4 rounded-xl bg-slate-100">
+                <div
+                    class="absolute -top-6 left-1/4 transform -translate-x-1/2 bg-slate-100 p-2 rounded-xl border-4 border-white  shadow-md">
+                    <i class="fa-solid fa-arrow-rotate-left text-2xl"></i>
+                </div>
+                <p class="text-lg font-semibold my-4">Easy returns</p>
+                <p>Not satisfied? Return your products within 30 days</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="my-24 max-w-screen-lg mx-auto px-4">
+        <h2 class="text-3xl font-bold my-4">Trending Now</h2>
+        <div id="trending-products-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-stretch gap-5">
+            <!-- Product cards will be dynamically inserted here -->
+           
+
+        </div>
+    </section>
+
+    <footer id="footer" class="footer sm:footer-horizontal bg-base-300 text-base-content p-10 bg-[#1E2939] text-white">
+        <div class=" grid grid-cols-1 md:grid-cols-4 gap-5 max-w-screen-lg mx-auto">
+            <nav class="grid grid-cols-1 uppercase text-black/70">
+                <h2 class="text-2xl font-bold text-[#4F39F6]">SwiftCart</h2>
+                <p class="text-[10px] text-white">Your one stop shop for all your lifestyle and fashion needs. Quality
+                    products, fast delivery and excellent support </p>
+            </nav>
+            <nav class="grid grid-cols-1 uppercase font-semibold text-black/70 text-white">
+                <h6 class="footer-title uppercase">Quick links</h6>
+                <a class="link link-hover">Branding</a>
+                <a class="link link-hover">Design</a>
+                <a class="link link-hover">Marketing</a>
+                <a class="link link-hover">Advertisement</a>
+            </nav>
+            <nav class="grid grid-cols-1 uppercase font-semibold text-black/70 text-white">
+                <h6 class="footer-title">Support</h6>
+                <a class="link link-hover">About us</a>
+                <a class="link link-hover">Contact</a>
+                <a class="link link-hover">Jobs</a>
+                <a class="link link-hover">Press kit</a>
+            </nav>
+            <nav class="grid grid-cols-1 uppercase font-semibold text-black/70 text-white">
+                <h6 class="footer-title">Social</h6>
+                <div class="grid grid-flow-col gap-4">
+                    <a>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                            class="fill-current">
+                            <path
+                                d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z">
+                            </path>
+                        </svg>
+                    </a>
+                    <a>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                            class="fill-current">
+                            <path
+                                d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z">
+                            </path>
+                        </svg>
+                    </a>
+                    <a>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                            class="fill-current">
+                            <path
+                                d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z">
+                            </path>
+                        </svg>
+                    </a>
+                </div>
+            </nav>
+        </div>
+    </footer>
+    <script src="./script/index.js"></script>
+</body>
+
+</html>

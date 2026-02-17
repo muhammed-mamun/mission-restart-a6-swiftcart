@@ -1,0 +1,137 @@
+[
+  {
+    "id": 1,
+    "category": "Men's Shirt",
+    "name": "Slim Fit Oxford Shirt",
+    "price": 35.99,
+    "rating": 4.2,
+    "reviews": 88,
+    "image": "https://images.pexels.com/photos/13532880/pexels-photo-13532880.jpeg"
+  },
+  {
+    "id": 2,
+    "category": "Men's T-Shirt",
+    "name": "Casual Cotton Tee",
+    "price": 19.99,
+    "rating": 4.5,
+    "reviews": 150,
+    "image": "https://images.pexels.com/photos/18856593/pexels-photo-18856593.jpeg"
+  },
+  {
+    "id": 3,
+    "category": "Men's Shoes",
+    "name": "Running Sneakers",
+    "price": 59.99,
+    "rating": 4.7,
+    "reviews": 230,
+    "image": "https://images.pexels.com/photos/1456733/pexels-photo-1456733.jpeg"
+  },
+  {
+    "id": 4,
+    "category": "Women's T-Shirt",
+    "name": "V-Neck Cotton Tee",
+    "price": 22.99,
+    "rating": 4.3,
+    "reviews": 120,
+    "image": "https://images.pexels.com/photos/7432216/pexels-photo-7432216.jpeg"
+  },
+  {
+    "id": 5,
+    "category": "Women's Shirt",
+    "name": "Floral Print Blouse",
+    "price": 28.99,
+    "rating": 4.6,
+    "reviews": 95,
+    "image": "https://images.pexels.com/photos/19895950/pexels-photo-19895950.jpeg"
+  },
+  {
+    "id": 6,
+    "category": "Men's Shoes",
+    "name": "Leather Loafers",
+    "price": 75.99,
+    "rating": 4.4,
+    "reviews": 180,
+    "image": "https://images.pexels.com/photos/9992899/pexels-photo-9992899.jpeg"
+  },
+  {
+    "id": 7,
+    "category": "Men's Shirt",
+    "name": "Casual Denim Shirt",
+    "price": 39.99,
+    "rating": 4.1,
+    "reviews": 65,
+    "image": "https://images.pexels.com/photos/1105058/pexels-photo-1105058.jpeg"
+  },
+  {
+    "id": 8,
+    "category": "Men's T-Shirt",
+    "name": "Graphic Tee",
+    "price": 24.99,
+    "rating": 4.5,
+    "reviews": 200,
+    "image": "https://images.pexels.com/photos/29811574/pexels-photo-29811574.jpeg"
+  },
+  {
+    "id": 9,
+    "category": "Women's Shoes",
+    "name": "Casual Sneakers",
+    "price": 49.99,
+    "rating": 4.6,
+    "reviews": 140,
+    "image": "https://images.pexels.com/photos/1476209/pexels-photo-1476209.jpeg"
+  },
+  {
+    "id": 10,
+    "category": "Women's T-Shirt",
+    "name": "Striped Tee",
+    "price": 20.99,
+    "rating": 4.2,
+    "reviews": 110,
+    "image": "hhttps://images.pexels.com/photos/2167585/pexels-photo-2167585.jpeg"
+  },
+  {
+    "id": 11,
+    "category": "Men's Shoes",
+    "name": "Trail Running Shoes",
+    "price": 65.99,
+    "rating": 4.7,
+    "reviews": 210,
+    "image": "https://images.pexels.com/photos/13058810/pexels-photo-13058810.jpeg"
+  },
+  {
+    "id": 12,
+    "category": "Men's Shirt",
+    "name": "Linen Casual Shirt",
+    "price": 32.99,
+    "rating": 4.3,
+    "reviews": 75,
+    "image": "https://images.pexels.com/photos/7129369/pexels-photo-7129369.jpeg"
+  },
+  {
+    "id": 13,
+    "category": "Women's Shoes",
+    "name": "High Heel Sandals",
+    "price": 55.99,
+    "rating": 4.4,
+    "reviews": 90,
+    "image": "https://images.pexels.com/photos/30471927/pexels-photo-30471927.jpeg"
+  },
+  {
+    "id": 14,
+    "category": "Men's T-Shirt",
+    "name": "Polo Shirt",
+    "price": 29.99,
+    "rating": 4.5,
+    "reviews": 120,
+    "image": "https://images.pexels.com/photos/3228897/pexels-photo-3228897.jpeg"
+  },
+  {
+    "id": 15,
+    "category": "Women's Shirt",
+    "name": "Chiffon Blouse",
+    "price": 30.99,
+    "rating": 4.6,
+    "reviews": 100,
+    "image": "https://images.pexels.com/photos/7716938/pexels-photo-7716938.jpeg"
+  }
+]
